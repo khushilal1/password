@@ -7,7 +7,7 @@ for i in d.keys():
         # p=int(input("enter your password\n"))
         p=pwinput.pwinput("Enter your password")
         if(p==d[i]):
-            print("you login")
+            print("you verified")
             break
         elif(p!=d[i]):
             print("wrong password") 
